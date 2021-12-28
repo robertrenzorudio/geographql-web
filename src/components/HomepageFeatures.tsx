@@ -1,25 +1,20 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
-import { Link } from '@docusaurus/router';
-import { IconContext } from 'react-icons';
-import { GoBook } from 'react-icons/go';
-import { IoSpeedometerOutline } from 'react-icons/io5';
+import useThemeContext from '@theme/hooks/useThemeContext';
 
 type FeatureItem = {
   title: string;
-  image: JSX.Element;
+  image: string;
+  imageDark: string;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'GraphQL Cursor-Based Pagination',
-    image: (
-      <IconContext.Provider value={{ size: '100px' }}>
-        <GoBook />
-      </IconContext.Provider>
-    ),
+    image: '/img/cursor-pagination.svg',
+    imageDark: '/img/cursor-pagination-dark.svg',
     description: (
       <>
         The API uses cursor-based pagination conforming to the &nbsp;
@@ -31,11 +26,8 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Rate Limit',
-    image: (
-      <IconContext.Provider value={{ size: '100px' }}>
-        <IoSpeedometerOutline />
-      </IconContext.Provider>
-    ),
+    image: '/img/rate-limit.svg',
+    imageDark: '/img/rate-limit.svg',
     description: (
       <>
         The API uses point-based rate-limit to protect against malicious overuse
@@ -45,10 +37,17 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({ title, image, description }: FeatureItem) {
+function Feature({ title, image, imageDark, description }: FeatureItem) {
+  const { isDarkTheme } = useThemeContext();
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center"> {image} </div>
+      <div className="text--center">
+        <img
+          className={styles.featureSvg}
+          alt={title}
+          src={isDarkTheme ? imageDark : image}
+        />
+      </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>

@@ -6,13 +6,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'GraphQL World',
+  title: 'GeographQL',
   tagline: 'A Country, State, and City GraphQL API',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.png',
+  favicon: 'img/favicon.ico',
   organizationName: 'robertrenzorudio', // Usually your GitHub org/user name.
   projectName: 'gqlworld-web', // Usually your repo name.
 
@@ -23,8 +23,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/robertrenzorudio/gqlworld-web/',
+          editUrl: 'https://github.com/robertrenzorudio/geographql-web/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -40,11 +39,10 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'GraphQL World',
+        title: 'GeographQL',
         logo: {
-          src: 'img/logo.png',
-          srcDark: 'img/logo_dark.png',
-          alt: 'GraphQL World Logo',
+          src: 'img/logo.svg',
+          alt: 'GeographQL Logo',
         },
         items: [
           {
@@ -54,12 +52,12 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'https://api.gqlboundaries.com/graphql',
+            href: 'https://api.geographql.renzooo.com/graphql',
             label: 'Playground',
             position: 'right',
           },
           {
-            href: 'https://github.com/robertrenzorudio/graphed-world',
+            href: 'https://github.com/robertrenzorudio/geographql',
             label: 'GitHub',
             position: 'right',
           },

@@ -22,6 +22,17 @@
   justify-content: center;
 }
 
-.herologo {
-  font-size: 90px;
+.heroLogo {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.heroTitle {
+  font-size: 60px;
+}
+
+@media screen and (max-width: 480px) {
+  .heroTitle {
+    font-size: 37px;
+  }
 }

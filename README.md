@@ -1,5 +1,7 @@
 # Website
 
+A docs website for the project [GraphQL World](https://github.com/robertrenzorudio/graphql-world)\
+\
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
