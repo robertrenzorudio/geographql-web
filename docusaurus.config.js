@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'GeographQL',
   tagline: 'A Country, State, and City GraphQL API',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://geographql.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
