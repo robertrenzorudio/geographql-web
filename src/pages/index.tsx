@@ -18,7 +18,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="https://api.gqlboundaries.com/graphql"
+            to="https://api.geographql.renzooo.com/graphql"
           >
             Playground
           </Link>

@@ -81,7 +81,7 @@ const config = {
               `,
           },
         ],
-        copyright: `GraphQL World. Built with Docusaurus.`,
+        copyright: `GeographQL. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
