@@ -1,6 +1,8 @@
 # Website
 
-A documentation website for the project [GeographQL](https://github.com/robertrenzorudio/geographql)\
+Checkout the [website](https://geographql.netlify.app).
+
+A documentation website for the project [GeographQL](https://github.com/robertrenzorudio/geographql).\
 \
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
