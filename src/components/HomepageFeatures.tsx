@@ -2,6 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
 import useThemeContext from '@theme/hooks/useThemeContext';
+import { Link } from '@docusaurus/router';
 
 type FeatureItem = {
   title: string;
@@ -30,8 +31,8 @@ const FeatureList: FeatureItem[] = [
     imageDark: '/img/rate-limit.svg',
     description: (
       <>
-        The API uses point-based rate-limit to protect against malicious overuse
-        of the service.
+        The API uses point-based <Link to="/docs/rate-limit">rate-limit</Link>{' '}
+        to protect against malicious overuse of the service.
       </>
     ),
   },
