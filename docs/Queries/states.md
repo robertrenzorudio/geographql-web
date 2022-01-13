@@ -1,19 +1,19 @@
 ---
-title: "States"
+title: 'States'
 ---
 
 Get a list of states.
 
 ### Arguments
 
-| Name | Description |
-|---|---|
-| filter ([StateFilterInput](../inputs/state-filter-input)) | State filter arguments. |
-| pagination ([PaginationInput](../inputs/pagination-input)) | Pagination input arguments. |
+| Name                                                          | Description                 |
+| ------------------------------------------------------------- | --------------------------- |
+| filter ([StateFilterInput](../inputs/state-filter-input.md))  | State filter arguments.     |
+| pagination ([PaginationInput](../inputs/pagination-input.md)) | Pagination input arguments. |
 
 ### Return Type
 
-[StateConnection](../objects/state-connection)!
+[StateConnection](../objects/state-connection.md)!
 
 ### Sample Query
 

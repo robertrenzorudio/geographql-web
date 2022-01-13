@@ -1,20 +1,21 @@
 ---
-title: "State"
+title: 'State'
 ---
 
 Get a specific state by id or locationCode.
 
 ### Arguments
 
-| Name | Description |
-|---|---|
-| id (Int) | The id of the state.|
-| locationCode ([StateCountryCodeInput](../inputs/state-country-code-input)) | The state-country code pair of the state.|
+| Name                                                                          | Description                               |
+| ----------------------------------------------------------------------------- | ----------------------------------------- |
+| id (Int)                                                                      | The id of the state.                      |
+| locationCode ([StateCountryCodeInput](../inputs/state-country-code-input.md)) | The state-country code pair of the state. |
+
 State code is not unique while state-country code pair is.
 
 ### Return Type
 
-[State](../objects/state)
+[State](../objects/state.md)
 
 ### Sample Query
 

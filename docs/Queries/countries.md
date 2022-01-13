@@ -1,19 +1,19 @@
 ---
-title: "Countries"
+title: 'Countries'
 ---
 
 Get a list of countries.
 
 ### Arguments
 
-| Name | Description |
-|---|---|
-| filter ([CountryFilterInput](../inputs/country-filter-input)) | Country filter arguments |
-| pagination ([PaginationInput](../inputs/pagination-input)) | Pagination input arguments |
+| Name                                                             | Description                |
+| ---------------------------------------------------------------- | -------------------------- |
+| filter ([CountryFilterInput](../inputs/country-filter-input.md)) | Country filter arguments   |
+| pagination ([PaginationInput](../inputs/pagination-input.md))    | Pagination input arguments |
 
 ### Return Type
 
-[CountryConnection](../objects/country-connection)!
+[CountryConnection](../objects/country-connection.md)!
 
 ### Sample Query
 

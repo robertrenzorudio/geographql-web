@@ -1,18 +1,18 @@
 ---
-title: "City"
+title: 'City'
 ---
 
 Get a specific city by `id`.
 
 ### Arguments
 
-| Name | Description |
-|---|---|
-| id (Int) | The id of the city.|
+| Name     | Description         |
+| -------- | ------------------- |
+| id (Int) | The id of the city. |
 
 ### Return Type
 
-[City](../objects/city)
+[City](../objects/city.md)
 
 ### Sample Query
 

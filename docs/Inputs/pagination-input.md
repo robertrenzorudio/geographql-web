@@ -1,15 +1,15 @@
 ---
-title: "PaginationInput"
+title: 'PaginationInput'
 ---
 
 ### Fields
 
-| Name | Description |
-|---|---|
-| first (Int) | Returns the first n elements. |
-| last (Int) | Returns the last n elements. |
+| Name            | Description                                                 |
+| --------------- | ----------------------------------------------------------- |
+| first (Int)     | Returns the first n elements.                               |
+| last (Int)      | Returns the last n elements.                                |
 | before (String) | Returns the elements that come before the specified cursor. |
-| after (String) | Returns the elements that come after the specified cursor.|
+| after (String)  | Returns the elements that come after the specified cursor.  |
 
 ### Unsupported Input Combinations
 

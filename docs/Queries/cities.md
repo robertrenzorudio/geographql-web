@@ -1,19 +1,19 @@
 ---
-title: "Cities"
+title: 'Cities'
 ---
 
 Get a list of cities.
 
 ### Arguments
 
-| Name | Description |
-|---|---|
-| filter ([CityFilterInput](../inputs/city-filter-input)) | City filter arguments. |
-| pagination ([PaginationInput](../inputs/pagination-input)) | Pagination input arguments. |
+| Name                                                          | Description                 |
+| ------------------------------------------------------------- | --------------------------- |
+| filter ([CityFilterInput](../inputs/city-filter-input.md))    | City filter arguments.      |
+| pagination ([PaginationInput](../inputs/pagination-input.md)) | Pagination input arguments. |
 
 ### Return Type
 
-[CityConnection](../objects/city-connection)!
+[CityConnection](../objects/city-connection.md)!
 
 ### Sample Query
 

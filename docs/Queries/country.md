@@ -1,21 +1,21 @@
 ---
-title: "Country"
+title: 'Country'
 ---
 
 Get a specific country by `id`, `iso2`, `iso3`, or `numeric_code`.
 
 ### Arguments
 
-| Name | Description |
-|---|---|
-| id (Int) | The id of the country.|
-| iso2 (Id) | The two-letter code (ISO Alpha-2) designated to the country. |
-| iso3 (Id) | The three-letter code (ISO Alpha-2) designated to the country. |
-| numeric_code (Id) | The three-digit code (ISO numeric) designated to the country. |
+| Name              | Description                                                    |
+| ----------------- | -------------------------------------------------------------- |
+| id (Int)          | The id of the country.                                         |
+| iso2 (Id)         | The two-letter code (ISO Alpha-2) designated to the country.   |
+| iso3 (Id)         | The three-letter code (ISO Alpha-2) designated to the country. |
+| numeric_code (Id) | The three-digit code (ISO numeric) designated to the country.  |
 
 ### Return Type
 
-[Country](../objects/country)
+[Country](../objects/country.md)
 
 ### Sample Query
 
