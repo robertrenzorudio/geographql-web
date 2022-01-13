@@ -35,6 +35,13 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      algolia: {
+        // If Algolia did not provide you any appId, use 'BH4D9OD16A'
+        appId: 'X5PGPTV2OK',
+        // Public API key: it is safe to commit it
+        apiKey: '8c8b5bf87c0d54ac2dcf47ecec25c812',
+        indexName: 'geographql',
+      },
       colorMode: {
         respectPrefersColorScheme: true,
       },
