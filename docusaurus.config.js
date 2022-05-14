@@ -59,7 +59,7 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'https://api.geographql.renzooo.com/graphql',
+            href: 'https://api.geographql.rudio.dev/graphql',
             label: 'Playground',
             position: 'right',
           },

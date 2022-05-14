@@ -9,5 +9,5 @@ conforming to the [GraphQL Cursor Connections Specification](https://relay.dev/g
 ### GraphQL Endpoint
 
 ```js
-https://api.geographql.renzooo.com/graphql
+https://api.geographql.rudio.dev/graphql
 ```
